@@ -1,0 +1,365 @@
+﻿body{
+    margin: auto;
+}
+
+#gameContainer {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+    /* try to handle mobile dialog */
+    canvas + * {
+        z-index: 2;
+    }
+
+
+
+/* Frame Overlay */
+
+iframe {
+    background-color: white;
+}
+
+.header {
+    background-color: royalblue;
+    color: white;
+    height: 35px;
+}
+
+.headermark {
+    float: left;
+    font-size: 20px;
+    margin: 0px;
+    padding: 9px;
+}
+
+.headertext {
+    margin: 0px;
+    font-size: 15px;
+    padding: 9px;
+    text-align:left;
+}
+
+
+.functionalMark{
+    float: right;
+    font-size: 20px;
+    margin: 0px;
+    padding: 9px;
+    position:absolute;
+    top:5px;
+    z-index:2;
+}
+
+.buttondiv {
+    display: flex;
+    align-items: center;
+    background-color: royalblue;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 5px solid white;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,38%);
+    border-bottom:20px solid white;
+}
+
+.innerbutton {
+    position: relative;
+    top: 50%;
+    left: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.buttontext {
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    width: 80%;
+    height: 100%;
+}
+
+.buttonGroup {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    bottom: 0px;
+}
+
+.buttons {
+    float: left;
+    font-size: 15px;
+    background-color: royalblue;
+    color: white;
+    padding: 3px;
+    width: 90%;
+    margin-top: 1px;
+    margin-left: 0;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0)
+}
+
+.progress {
+    margin: 1.5em;
+    border: 1px solid white;
+    width: 50vw;
+    display: none;
+}
+
+    .progress .full {
+        margin: 2px;
+        background: white;
+        height: 1em;
+        transform-origin: top left;
+    }
+
+#loader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: rgb(0, 0, 0);*/
+}
+
+.spinner,
+.spinner:after {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.spinner {
+    margin: 10px;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+    border-left: 1.1em solid #ffffff;
+    transform: translateZ(0);
+    animation: spinner-spin 1.1s infinite linear;
+}
+
+@keyframes spinner-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#frameContainer {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+    height: 830px;
+    width: 1652px;
+    display: none;
+}
+
+    #frameContainer iframe {
+        height: 100%;
+        width: 100%;
+    }
+
+#button_reload {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    color: #808080;
+    border: solid 1px #808080;
+    padding-top: 2px;
+}
+
+#button_close {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #808080;
+    border: solid 1px #808080;
+    padding-top: 2px;
+}
+
+
+
+/** ======================= Uploader ===============*/
+
+.uploader {
+    position: absolute;
+    Top: 50%;
+    left: 50%;
+    height: 480px;
+    width: 360px;
+    margin-top: -240px;
+    margin-left: -150px;
+    display: none;
+    background-color: #fff;
+
+    border-radius: 0px;
+    box-sizing: border-box;
+
+}
+
+    .uploader .header {
+        position: relative;
+        background-color: #008eff;
+        margin: 2px;
+        height: 30px;
+        width: 356px;
+    }
+
+        .uploader .header .header-title {
+            float: left;
+            color: #fff;
+            margin-left: 6px;
+            margin-top: 6px;
+            font:bold;
+        }
+
+        .uploader .header .header-close {
+            float: right;
+            color: #fff;
+            margin-right: 6px;
+            margin-top: 6px;
+            cursor:pointer;
+        }
+
+    .uploader .form {
+        position: relative;
+        width: 90%;
+        margin: auto;
+    }
+
+    .uploader .message {
+        position: relative;
+        width: 90%;
+        margin: auto;
+    }
+
+    .uploader .button {
+        position: relative;
+        width: 90%;
+        margin: auto;
+        height: 40px;
+        background-color: #008eff;
+    }
+
+        .uploader .button .button-upload {
+            color: #fff;
+            text-align: center;
+            font-size: 18px;
+            font: bold;
+            padding-top: 9px;
+            cursor: pointer;
+        }
+
+
+
+    .uploader legend {
+        font-size: 12px;
+    }
+#filedrag {
+    display: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em 0;
+    margin: 1em 0;
+    color: #555;
+    border: 2px dashed #555;
+    border-radius: 7px;
+    cursor: default;
+    height: 100px ;
+    vertical-align: middle;
+}
+
+    #filedrag.hover {
+        color: #f00;
+        border-color: #f00;
+        border-style: solid;
+        box-shadow: inset 0 3px 4px #888;
+    }
+
+img {
+    max-width: 100%;
+}
+
+pre {
+    width: 95%;
+    height: 8em;
+    font-family: monospace;
+    font-size: 0.9em;
+    padding: 1px 2px;
+    margin: 0 0 1em auto;
+    border: 1px inset #666;
+    background-color: #eee;
+    overflow: auto;
+}
+
+#messages {
+    padding: 0 10px;
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:10px;
+    border: 1px solid #999;
+}
+
+#progress p {
+    display: block;
+    width: 240px;
+    padding: 2px 5px;
+    margin: 2px 0;
+    border: 1px inset #446;
+    border-radius: 5px;
+    background: #eee url("progress.png") 100% 0 repeat-y;
+}
+
+    #progress p.success {
+        background: #0c0 none 0 0 no-repeat;
+    }
+
+    #progress p.failed {
+        background: #c00 none 0 0 no-repeat;
+    }
+
+
+/** =======================BIM  Uploader ===============*/
+
+#overlay-frame-bim-uploader iframe {
+    height: 100%;
+    width: 100%;
+}
+
+

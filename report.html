@@ -1,0 +1,67 @@
+﻿<!--
+    File: admin.html
+    Author: Deyou Zou
+    Date: 7 Jan 2021
+    Project: Sycamore - ALLINK
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Allink | Report</title>
+    <link rel="shortcut icon" href="../resources/logo/logo 128.png" />
+
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../css/report.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <div class="header">
+        <div class="fa fa-reply headermark" onclick="location.href='admin.html';"></div>
+        <div class="headertext" id="status">Unprocessed Reports</div>
+        <div class="fa fa-exclamation-circle functionalMark" id="unprocessed"></div>
+        <div class="functionalMark iconBackground" id="iconBackground1"></div>
+        <div class="fa fa-minus-circle functionalMark" id="ignored"></div>
+        <div class="functionalMark iconBackground" id="iconBackground2"></div>
+        <div class="fa fa-times-circle functionalMark" id="postDeleted"></div>
+        <div class="functionalMark iconBackground" id="iconBackground3"></div>
+    </div>
+
+    <div id="content">
+        <div id="background"></div>
+        <div class="viewerWindow" id="reportViewer">
+            <div class="userInfo" id="userInfo">
+                <img id="userIcon" class="userIcon" src="resource/user/noavatar.png" />
+                <div id="userName" class="userName">Alice Brown Chou</div>
+            </div>
+            <div id="closeWindow" class="fa fa-close" onclick="hideWindow()"></div>
+            <div id="details">
+                <div class="detailTitles">Post guid</div>
+                <div class="detailContents" id="postGuid">xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx</div>
+                <div class="detailTitles">Report time</div>
+                <div class="detailContents" id="reportTime">None</div>
+                <div class="detailTitles">Report type</div>
+                <div class="detailContents" id="reportType">None</div>
+                <div class="detailTitles">Report platform</div>
+                <div class="detailContents" id="reportPlatform">None</div>
+                <div class="detailTitles">Report content</div>
+                <div class="detailContents" id="reportContent">Default message Default message Default message Default message Default message Default message Default message Default message Default message Default message</div>
+            </div>
+            
+            <div class="buttonGroup" id="buttonGroup">
+                <div class="buttons viewButton" id="viewPostButton">View Post</div>
+                <div class="buttons ignoreButton" id="ignoreReportButton">Ignore Report</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="reportList">
+        
+    </div>
+
+    <script src="../js/report.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+﻿/*  OVERALL   */
+
+.popup-text-main {
+    font-size: 12px;
+}
+
+
+/*  POST   */
+
+.post-popup-template {
+    display: none;
+}
+
+
+.post-popup {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+    .post-popup .post-popup-thumbnail {
+        display: block;
+        height: 100px;
+        width: 100%;
+    }
+
+    .post-popup .post-popup-header {
+        background-color: #3E739D;
+        border-radius: 4px 4px 0 0;
+        color: #FFFFFF;
+        height: 32px;
+        line-height: 60px;
+        padding: 0px 0 0px 8px;
+    }
+
+
+    .post-popup .post-popup-header-link {
+        border-radius: 50%;
+        color: #FFFFFF;
+        float: right;
+        font-size: 14px;
+        height: 32px;
+        line-height: 31px;
+        margin-left: 3px;
+        margin-right: 10px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .post-popup .post-popup-header-icon {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+
+
+
+
+/*  REQUEST   */
+.request-popup-template {
+    display: none;
+}
+
+.request-popup {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+    .request-popup .request-popup-thumbnail {
+        display: block;
+        height: 100px;
+        width: 100%;
+    }
+
+     .request-popup .request-text-main {
+        font-size: 12px;
+    }
+
+    .request-popup .request-popup-header {
+        background-color: #ffa500;
+        border-radius: 4px 4px 0 0;
+        color: #FFFFFF;
+        height: 32px;
+        line-height: 60px;
+        padding: 0px 0 0px 8px;
+    }
+
+
+    .request-popup .request-popup-header-link {
+        border-radius: 50%;
+        color: #FFFFFF;
+        float: right;
+        font-size: 14px;
+        height: 32px;
+        line-height: 31px;
+        margin-left: 3px;
+        margin-right: 10px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .request-popup .request-popup-header-icon {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }

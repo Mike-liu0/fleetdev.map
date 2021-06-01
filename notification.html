@@ -1,0 +1,79 @@
+﻿<!--
+    File: notification.html
+    Author: Deyou Zou
+    Date: 22 Dec 2020
+    Project: Sycamore - ALLINK
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Allink | System Message</title>
+    <link rel="shortcut icon" href="../resources/logo/logo 128.png" />
+
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../css/notification.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <div class="header">
+        <div class="fa fa-reply headermark" onclick="location.href='admin.html';"></div>
+        <div class="headertext">Allink System Message</div>
+        <div class="testmodelock fa fa-lock" id="locked"></div>
+        <div class="testmodelock fa fa-unlock-alt" id="unlocked"></div>
+    </div>
+    <div id="inputarea">
+        <br />
+        <div>
+            <p>Tips: You may select from the following messages</p>
+            <div class="defaultmessages"  onclick="defaultmessage(1)">
+                <div class="bulletpoint fa fa-circle"></div>
+                <p id="message1">Allink has a new version! Ver No. </p>
+            </div>
+            <div class="defaultmessages" onclick="defaultmessage(2)">
+                <div class="bulletpoint fa fa-circle"></div>
+                <p id="message2" >Check out our new posts!</p>
+            </div>
+            <div class="defaultmessages" onclick="defaultmessage(3)">
+                <div class="bulletpoint fa fa-circle"></div>
+                <p id="message3">G'day!</p>
+            </div>
+            <div class="defaultmessages" onclick="defaultmessage(4)">
+                <div class="bulletpoint fa fa-circle"></div>
+                <p id="message4">Happy new year!</p>
+            </div>
+        </div>
+        <br />
+        <div>
+            <p>Send message to all users</p>
+        </div>
+        <div>
+            <textarea id="inputbox" name="message" rows="6" placeholder="Input your message here"></textarea>
+        </div>
+        <div>
+            <p id="status"></p>
+            <p id="errormessage"></p>
+        </div>
+        <div class="buttondiv" id="sendingbutton">
+            <div class="innerbutton" id="innersendingbutton">
+                <p class="buttontext" id="buttontext">Send</p>
+            </div>
+        </div>
+    </div>
+    <div id="succeeded">
+        <div id="messagesent">Message Sent. Click OK to back.</div>
+        <br />
+        <br />
+        <br />
+        <div class="buttondiv" id="backbutton">
+            <div id="okbutton">
+                <p id="oktext">OK</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/notification.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Display map navigation controls</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendors/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'> -->
+    <script
+        src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+        type="text/css">
+
+
+    <script src="./js/Model/DataProxy.js"></script>
+    <script src="./js/Utility/config.js"></script>
+    <script src="./js/table.js"></script>
+
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="data_table">
+
+        <div class="card-header bg-white">
+
+
+            <button type="button" id="clear_btn">Clear</button>
+
+            <button type="button" id="submit_btn" disabled>Submit</button>
+
+
+            <select id="deviceId" style="width: 100%">
+                <option selected disabled hidden>Select Device Id</option>
+                <option>D000-0000</option>
+                <option>D000-0001</option>
+                <option>D000-0002</option>
+                <option>D000-0003</option>
+                <option>D000-0004</option>
+                <option>D000-0005</option>
+                <option>D000-0006</option>
+                <option>D000-0007</option>
+                <option>D000-0008</option>
+                <option>D000-0009</option>
+            </select>
+
+
+            <div>
+                <span id="tracking"></span>
+                <br />
+                <span id="packageNumber"></span>
+            </div>
+
+        </div>
+
+        <ul style="width: 100%;">
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> RPM <input type="text" class="pull-right" id="rpm"
+                    value="41,0C,0C,E0,41,0C,0C,DC,">
+            </li>
+
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Speed <input class="pull-right" type="text" id="speed"
+                    value="41,0D,00,41,0D,00,">
+            </li>
+
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Coolent Temp <input class="pull-right" type="text" id="c_temp"
+                    value="NO,DATA">
+            </li>
+
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Engine Temp <input class="pull-right" type="text" id="e_temp"
+                    value="41,05,72,41,05,72,">
+            </li>
+
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Fuel Consumption <input class="pull-right" type="text" id="consumption"
+                    value="14.5V">
+            </li>
+
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Battery Voltage <input class="pull-right" type="text" id="voltage"
+                    value="NO,DATA">
+            </li>
+
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Clear Mile <input class="pull-right" type="text" id="mile"
+                    value="41,31,85,4c,41,31,85,48,">
+            </li>
+
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Engine Code <input class="pull-right" type="text" id="code" value="N">
+            </li>
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Longitude <button type="button" id="random_btn">Renew</button><input
+                    class="pull-right" type="text" id="lng" value="144.946457">
+            </li>
+            <li class="list-group-item">
+                <i class="fa fa-tasks"></i> Latitude <input class="pull-right" type="text" id="lat" value="-37.840935">
+            </li>
+        </ul>
+    </div>
+
+
+
+
+</body>
+
+</html>

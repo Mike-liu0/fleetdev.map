@@ -1,0 +1,173 @@
+﻿body {
+    font-family: 'Roboto';
+    text-align: left !important;
+    overflow: scroll !important;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+div {
+    margin: 5px;
+}
+
+
+.functionalMark.iconBackground{
+    background-color:white;
+    z-index:1;
+    top:17px;
+    padding:5px;
+    border-radius:50%;
+}
+
+#iconBackground1{
+    right:19px;
+}
+
+#iconBackground2 {
+    right: 54px;
+}
+
+#iconBackground3 {
+    right: 88px;
+}
+
+#unprocessed {
+    right: 77px;
+    color: gold;
+}
+
+#ignored {
+    right: 43px;
+    color: lightgray;
+}
+
+#postDeleted {
+    right: 9px;
+    color:orangered;
+}
+
+#content{
+    position:relative;
+}
+
+#background{
+    position:fixed;
+    width:100%;
+    height:100%;
+    margin:-5px;
+    background-color:rgba(0,0,0,0.5);
+    border:5px solid white;
+    z-index:3;
+    top:5px;
+}
+
+.viewerWindow{
+    height:80%;
+    width:80%;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:white;
+    margin:0;
+    z-index:4;
+    border-radius:10px;
+}
+
+#content {
+    display: none;
+}
+
+#reportViewer{
+    z-index:4;
+}
+
+#closeWindow{
+    position:absolute;
+    right:15px;
+    top:10px;
+    font-size:25px;
+}
+
+#postViewer{
+    display:none;
+    z-index:5;
+}
+
+iframe{
+    height:100%;
+    width:100%;
+    border-radius:10px;
+}
+
+#backButton2{
+    bottom:40px;
+}
+
+.reportItem {
+    height: 77px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: ghostwhite;
+    margin:0;
+    margin-bottom:5px;
+}
+
+.userInfo{
+    height:90px;
+    width:100%;
+    float:left;
+    position:relative;
+    top:20px;
+    left:10px;
+}
+
+.userIcon{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin-left:10px;
+}
+
+.userName{
+    position:absolute;
+    top:10px;
+    left:70px;
+}
+
+#details {
+    position: absolute;
+    top: 100px;
+    margin: 10px;
+    height: 50%;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    width: 100%;
+}
+
+    #details::-webkit-scrollbar {
+        display: none;
+    }
+
+.detailTitles{
+    color:royalblue;
+}
+
+.detailContents{
+    color:gray;
+}
+
+.reportPreDetails {
+    font-size: 15px;
+    position: relative;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.reportTime{
+    font-weight:bold;
+}
+

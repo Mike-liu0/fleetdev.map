@@ -1,0 +1,60 @@
+﻿<!--
+    File: admin.html
+    Author: Deyou Zou
+    Date: 7 Jan 2021
+    Project: Sycamore - ALLINK
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Allink | Mobile Console</title>
+    <link rel="shortcut icon" href="../resources/logo/logo 128.png" />
+
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../css/admin.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <div class="header">
+        <div class="fa fa-cog headermark" id="homeMark"></div>
+        <div class="fa fa-reply headermark" id="backMark"></div>
+        <div class="headertext">Allink Mobile Console</div>
+    </div>
+    <div id="contents">
+        <div class="functions" id="postviewer">
+            <div class="fa fa-newspaper-o functionIcon"></div>
+            <div class="functionText">Post viewer</div>
+        </div>
+        <div class="functions" id="notification" onclick="location.href='notification.html';">
+            <div class="fa fa-bullhorn functionIcon"></div>
+            <div class="functionText">System Push Notification</div>
+        </div>
+        <div class="functions" id="report" onclick="location.href='report.html';">
+            <div class="fa fa-exclamation-circle functionIcon"></div>
+            <div class="functionText">Report</div>
+        </div>
+    </div>
+    <div id="postGuidInput">
+        <div>
+            <div>
+                <p>Enter post guid:</p>
+            </div>
+            <textarea id="inputbox" name="postguid" rows="1" placeholder="Input post guid here"></textarea>
+            <div>
+                <p id="noGuidMessage">Please input a correct guid.</p>
+            </div>
+        </div>
+        <div class="buttondiv" id="confirmbutton">
+            <div class="innerbutton">
+                <p class="buttontext">Confirm</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/admin.js"></script>
+</body>
+</html>

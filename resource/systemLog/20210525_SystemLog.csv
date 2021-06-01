@@ -1,0 +1,33 @@
+guid,localTime,created,updated,status,attachedUser,path,apiTarget,actionTarget,success,resultDescription
+c7391d1f-3af5-448e-a58f-f125b1577025,2021-05-25 11-03-20,637575374002676165,637575374002676165,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnSendVehicleTracking.aspx,Record Tracking Data,true,2_D000-0001_OK_N_41,0C,0C,E0,41,0C,0C,DC,_41,0D,00,41,0D,00,_NO,DATA_41,05,72,41,05,72,_NO,DATA_14.5V_41,31,85,4c,41,31,85,48,_N_1,1,20210506021643.000,-37.840935,144.946457,26.500,0.00,91.5,1,,0.8,1.1,0.7,,18,8,2,,,34,,
+84b80e7a-20bb-46b1-a0dd-36faa23576a0,2021-05-25 11-04-47,637575374876287495,637575374876287495,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnSendVehicleTracking.aspx,Record Tracking Data,true,2_D000-0003_OK_N_41,0C,0C,E0,41,0C,0C,DC,_41,0D,00,41,0D,00,_NO,DATA_41,05,72,41,05,72,_NO,DATA_14.5V_41,31,85,4c,41,31,85,48,_N_1,1,20210506021643.000,-37.840935,144.946457,26.500,0.00,91.5,1,,0.8,1.1,0.7,,18,8,2,,,34,,
+9fa551b0-85d2-4bcb-97c8-85d09d48f6c9,2021-05-25 13-02-53,637575445734680514,637575445734680514,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,api_addnewoperationrequest_aspx,AWS add item,true,default
+a2d3a9c4-93aa-40e4-bbea-936918f0a947,2021-05-25 13-03-17,637575445970971767,637575445970971767,dev,272T0ymkF0KixH3QmaXMwQ,dev,api_getoperationrequestbyguid_aspx,AWS get item,true,default
+274357d6-9d78-44e6-bf22-4eeda784afbd,2021-05-25 13-03-30,637575446104435783,637575446104435783,dev,272T0ymkF0KixH3QmaXMwQ,dev,api_modifyoperationrequest_aspx,AWS modify item,true,default
+d7858b0c-8c3a-4ee0-a2fd-c8ab8ba7b33f,2021-05-25 13-05-51,637575447519215103,637575447519215103,dev,272T0ymkF0KixH3QmaXMwQ,dev,api_getalloperationrequests_aspx,AWS get item,true,default
+515a3cbb-bcc5-4f2f-8412-a5ad974e971a,2021-05-25 13-06-29,637575447895776668,637575447895776668,dev,272T0ymkF0KixH3QmaXMwQ,dev,api_modifyoperationrequest_aspx,AWS modify item,true,default
+84673926-d8af-43eb-a470-cc2d491149db,2021-05-25 13-06-34,637575447947527156,637575447947527156,dev,272T0ymkF0KixH3QmaXMwQ,dev,api_getoperationrequestbyguid_aspx,AWS get item,true,default
+7d809c56-dfe8-4ea8-8436-18a67693d5ad,2021-05-25 13-06-53,637575448135679047,637575448135679047,dev,272T0ymkF0KixH3QmaXMwQ,dev,api_deleteoperationrequest_aspx,AWS delete item,true,default
+c1ee06b5-3a77-4dbc-bc9e-600bdd0e76d3,2021-05-25 13-06-58,637575448180210039,637575448180210039,dev,272T0ymkF0KixH3QmaXMwQ,dev,api_getoperationrequestbyguid_aspx,AWS get item,false,none
+63f4112e-713a-4362-891b-dfe8ec004eac,2021-05-25 15-19-42,637575527826087145,637575527826087145,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,false,Object reference not set to an instance of an object.
+bf0aa30e-7dbc-46b0-87aa-0962bb4aafd2,2021-05-25 15-25-27,637575531277372287,637575531277372287,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+c010e37e-52e8-463f-8d10-ab447c78d605,2021-05-25 15-43-39,637575542190108947,637575542190108947,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+c9683aa4-0da1-4c60-bd30-7f5c2f61e252,2021-05-25 15-47-32,637575544526312778,637575544526312778,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+42464605-6840-4733-87cf-dbd12cf5df5c,2021-05-25 16-02-10,637575553306279751,637575553306279751,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+52f7346b-b4fb-40b4-b044-c2af1e920d1e,2021-05-25 16-02-14,637575553343650867,637575553343650867,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+d12045c4-39e1-4c5b-a786-73356aad15d0,2021-05-25 16-26-02,637575567626910507,637575567626910507,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+f6d69096-c788-4569-bb87-58b5dbb65ffd,2021-05-25 16-26-02,637575567626910507,637575567626910507,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+a3ad1773-1b1a-426c-bd82-a00aed709e05,2021-05-25 16-34-44,637575572843394775,637575572843394775,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+ab7ebafd-63ee-4080-9b48-5a907483e8d1,2021-05-25 16-37-27,637575574475426450,637575574475426450,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+3bf6ce2a-df98-4a1e-bfa2-1549e9ea7017,2021-05-25 16-37-27,637575574475426450,637575574475426450,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+13aaaa33-31fb-48bf-a14f-670688c0d836,2021-05-25 16-37-59,637575574790032618,637575574790032618,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+024e0f62-8aa9-4e72-a792-76ce6816ba31,2021-05-25 16-37-59,637575574790032618,637575574790032618,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+21f9fd77-f34d-47b8-9e14-d27fb18623a4,2021-05-25 16-38-31,637575575119901856,637575575119901856,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+9e96979a-9415-4609-890f-f5653c68c165,2021-05-25 16-38-31,637575575119901856,637575575119901856,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+07ab2cad-8d16-433b-86de-785ea7588c47,2021-05-25 16-38-39,637575575194773171,637575575194773171,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByMobile.aspx,Login Successfully,True,default
+f6797e01-e372-4e6a-bf7d-0b7e12057efc,2021-05-25 16-39-24,637575575648342409,637575575648342409,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+2fe9c4eb-cf47-4448-a9a1-31447bb6d6c1,2021-05-25 16-39-24,637575575648342409,637575575648342409,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+801fe5c5-073c-4290-9493-66f603402b51,2021-05-25 16-39-31,637575575716160446,637575575716160446,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByMobile.aspx,Login Successfully,True,default
+31adb9e4-f553-40bd-8fd3-2e10e0a531ec,2021-05-25 16-40-00,637575576008220165,637575576008220165,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+88819b7b-554d-4b98-a0a6-b2783a21d5b9,2021-05-25 16-40-00,637575576008220165,637575576008220165,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+fa62ad7f-3292-48fe-b3d8-cee4fa104b84,2021-05-25 16-40-09,637575576093373812,637575576093373812,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByMobile.aspx,Login Successfully,True,default

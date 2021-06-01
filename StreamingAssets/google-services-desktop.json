@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "503948590235-v6j4ajpfft394drl7c6inreabh8jb14r.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQBByZhnwsH6qXeCbJp8v2QtSfQJz1TkA"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:503948590235:ios:7985fe242efc7520a5da3e", 
+        "android_client_info": {
+          "package_name": "com.darkspede.sycamore"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "sycamore-app.appspot.com", 
+    "project_id": "sycamore-app", 
+    "firebase_url": "https://sycamore-app.firebaseio.com", 
+    "project_number": "503948590235"
+  }
+}

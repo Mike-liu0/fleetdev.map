@@ -1,0 +1,103 @@
+﻿body {
+    font-family: 'Roboto';
+    text-align: left !important;
+    overflow: scroll !important;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+div {
+    margin: 5px;
+}
+
+.testmodelock {
+    font-size: 20px;
+    margin: 0px;
+    padding: 7px;
+    position:fixed;
+    top:5px;
+    right:5px;
+}
+
+#locked {
+    font-size: 20px;
+    display: block;
+}
+
+#unlocked{
+    font-size:20px;
+    display:none;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+p{
+    margin:5px;
+}
+
+#succeeded{
+    display:none;
+}
+
+#status{
+    display:none;
+}
+
+#errormessage{
+    color:red;
+    display:none;
+}
+
+.fa.bulletpoint{
+    float:left;
+    font-size:10px;
+    margin:9px;
+}
+
+.defaultmessages{
+    border:2px solid gainsboro;
+    margin:0px;
+    margin-top:10px;
+    width:100%;
+    background-color:ghostwhite;
+}
+
+
+
+#okdiv {
+    display: flex;
+    align-items: center;
+    background-color: royalblue;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    vertical-align: central;
+}
+
+#okbutton {
+    position: relative;
+    top: 50%;
+    left: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#oktext {
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    width: 80%;
+    height: 100%;
+}

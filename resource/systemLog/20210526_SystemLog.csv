@@ -1,0 +1,46 @@
+guid,localTime,created,updated,status,attachedUser,path,apiTarget,actionTarget,success,resultDescription
+dc057907-43d8-44ec-895b-c416ce9bbbff,2021-05-26 11-30-52,637576254525854708,637576254525854708,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+5a139514-2d88-49ce-9d81-f6fe8ed908ec,2021-05-26 11-31-23,637576254839708133,637576254839708133,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByMobile.aspx,Login Successfully,True,default
+4e1db2fc-5666-4e77-9743-a8da84675bf5,2021-05-26 12-42-36,637576297561876333,637576297561876333,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+ad9bf713-2474-4637-a61e-5a0814209353,2021-05-26 12-42-36,637576297562032821,637576297562032821,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+8c753426-0801-4e6f-adb1-75f9e8673101,2021-05-26 12-48-43,637576301237567406,637576301237567406,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+8038d4cb-bd07-4bd1-b62d-553fc3e08fb0,2021-05-26 12-48-43,637576301237567406,637576301237567406,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+f744d02a-501e-49d1-8de3-ccd8a0fafacd,2021-05-26 12-48-51,637576301315536914,637576301315536914,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByMobile.aspx,Login Successfully,True,default
+2774e4f6-5d98-43d6-a0ba-cc2b8789c9ca,2021-05-26 13-00-37,637576308372801939,637576308372801939,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+f168067e-3cb2-4257-b685-030750b5fcb5,2021-05-26 13-12-24,637576315444022251,637576315444022251,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+b266c891-5868-42df-92b3-db7b256ca13a,2021-05-26 13-16-48,637576318087736927,637576318087736927,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+2b0d3891-12b1-4f6d-8464-b9da02be035c,2021-05-26 13-17-13,637576318339528373,637576318339528373,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+36d2ed11-5572-4c53-a833-901e7dbd46ca,2021-05-26 13-18-04,637576318844160870,637576318844160870,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+8e7a6028-037e-431e-a5c4-c22092437924,2021-05-26 13-19-19,637576319599878733,637576319599878733,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+f4d7fcf6-5c5d-4228-9a34-eb475d6b186a,2021-05-26 13-19-27,637576319670238137,637576319670238137,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+5f1504c6-ed60-402e-a3f5-77ee61d52cc7,2021-05-26 13-20-46,637576320461174810,637576320461174810,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+447ac531-e133-4a98-bbf6-edd99ed4ec83,2021-05-26 13-20-55,637576320551852709,637576320551852709,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+be3ebded-26ad-4621-8d66-66374a93e5a3,2021-05-26 13-21-50,637576321103877838,637576321103877838,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+9739a72d-5522-4a20-a356-9b9e3c550750,2021-05-26 13-22-48,637576321689421566,637576321689421566,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+8303b510-ae8e-4c8b-a7d5-0a67dd4c60b8,2021-05-26 13-23-00,637576321808511250,637576321808511250,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+409b32a8-9750-47b2-b4cf-0c87c5839a41,2021-05-26 13-23-19,637576321992315173,637576321992315173,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+a5b20e90-3d7f-40ed-a4a6-fee9a75597dc,2021-05-26 13-25-38,637576323389573264,637576323389573264,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+b5d7c228-e425-4e1a-ace5-9c661020a7de,2021-05-26 13-26-14,637576323741978667,637576323741978667,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+e563918e-d9ab-4c14-9c13-e69c411d497b,2021-05-26 13-32-25,637576327454500889,637576327454500889,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+d4f58ba1-40e1-4d6e-9815-809ddeec65ba,2021-05-26 13-33-52,637576328323500825,637576328323500825,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+9ba35305-06c6-468b-b380-1ee71acc4432,2021-05-26 13-34-29,637576328699407693,637576328699407693,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+ff931017-2d1c-4907-abe5-47c77a0a8dd8,2021-05-26 13-34-41,637576328810093796,637576328810093796,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+b6baba4c-8ea0-4cac-b66e-9eed0ce55706,2021-05-26 13-35-42,637576329426128737,637576329426128737,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+11107bb2-89ad-4374-95f7-1c1cd44da9a9,2021-05-26 13-36-50,637576330100310771,637576330100310771,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+e9ddddca-88cd-40f5-bdb5-d3e2c2f53af5,2021-05-26 13-37-00,637576330200127055,637576330200127055,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+5002bd22-7265-4834-a085-045314f1ca21,2021-05-26 13-38-21,637576331013397257,637576331013397257,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+ed7320b5-96a8-4df9-832a-b222b797c865,2021-05-26 13-38-59,637576331391911204,637576331391911204,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+e2bdbb5f-2884-4e53-b149-db9ec9fffc21,2021-05-26 13-39-57,637576331970759634,637576331970759634,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+6851d5de-6385-4e1e-aea1-6fe91a8568be,2021-05-26 13-40-06,637576332061405982,637576332061405982,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+62fdd58c-384c-484e-adab-6b2c26171f38,2021-05-26 13-40-11,637576332117546115,637576332117546115,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+5e7b2331-98e6-4f45-92ed-6c085fa97ba6,2021-05-26 13-40-11,637576332117546115,637576332117546115,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+91f34902-a09c-4f05-a374-2469cbadd3fc,2021-05-26 13-40-23,637576332237115213,637576332237115213,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByMobile.aspx,Login Successfully,True,default
+a0c19d40-c3ff-463f-9b2c-cb2a00672568,2021-05-26 14-08-01,637576348818193115,637576348818193115,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+6736fef7-0de9-4e5e-a1b5-420d30c2b740,2021-05-26 14-08-07,637576348873818609,637576348873818609,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+447d7a7a-8df7-4cbb-a1fc-d029fad0c20a,2021-05-26 15-00-13,637576380130605715,637576380130605715,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+a3188c04-6830-4727-b431-c8ac1ce2a685,2021-05-26 15-55-13,637576413130575647,637576413130575647,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+4b23227f-14d3-48d5-8e00-04024e01fb37,2021-05-26 17-03-08,637576453887781021,637576453887781021,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+2991ee5b-b336-4cb1-ac37-11d825793e9a,2021-05-26 17-03-41,637576454211348696,637576454211348696,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnSendVehicleTracking.aspx,Record Tracking Data,true,1_D000-0002_A_35_2000_D_E_F_G_H_I_J_1,1,20210506021643.000,-37.7442445697555,144.96819887673,376.900,0.00,73.1,1,,500.0,500.0,500.0,,22,2,,,,35,,
+6d6204dc-0974-40aa-8448-831c9535bb8c,2021-05-26 17-04-09,637576454498626736,637576454498626736,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+91c749be-582f-405b-a960-ea3d04c36e0d,2021-05-26 17-04-09,637576454498626736,637576454498626736,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnUserRequestAuthCode.aspx,user request authorize code,true,default
+3107fff2-5600-4e5e-8b36-780bb096768b,2021-05-26 17-04-25,637576454659287216,637576454659287216,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByMobile.aspx,Login Successfully,True,default

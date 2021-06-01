@@ -1,0 +1,7 @@
+guid,localTime,created,updated,status,attachedUser,path,apiTarget,actionTarget,success,resultDescription
+60c8ab1a-7439-426f-b3f0-ec77abce1152,2021-05-27 11-38-58,637577123380748093,637577123380748093,dev,272T0ymkF0KixH3QmaXMwQ,dev,OnRequestSendSMS.aspx,AWS request send sms,true,default
+8b4fda65-215f-4bab-be3d-48d60eb65bb4,2021-05-27 11-39-19,637577123593757912,637577123593757912,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByMobile.aspx,Login Successfully,True,default
+cb16cb81-d648-4fa7-9b0c-36d1ef80f580,2021-05-27 11-39-39,637577123799293545,637577123799293545,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+5c396177-af78-4d4d-bde3-ba5118042223,2021-05-27 11-40-17,637577124179401430,637577124179401430,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+5bbc3c8b-57aa-4e66-820a-f1fe75b0abca,2021-05-27 11-40-51,637577124512000770,637577124512000770,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default
+4d62d345-6e07-42e3-b621-5745d4c98a98,2021-05-27 11-42-22,637577125420447852,637577125420447852,dev,xVgsbCuuxkCGFDwLk1EpEQ,dev,OnRequestLoginByToken.aspx,Login Successfully,True,default

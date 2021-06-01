@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Display map navigation controls</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./vendors/font-awesome/css/font-awesome.min.css">
+
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+  <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'> -->
+  <script
+    src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+  <link rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+    type="text/css">
+
+  <script src="./js/Controller/MapController.js"></script>
+  <script src="./js/Model/DataProxy.js"></script>
+  <script src="./js/Controller/Login.js"></script>
+  <script src="./js/Utility/config.js"></script>
+  <script src="./js/Utility/Utility.js"></script>
+
+  <script src="./js/index.js"></script>
+
+
+
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/login.css">
+
+</head>
+
+<body>
+
+  <div id="show_table" class="show_table">
+    <img src="resource/dashboard.png" alt="">
+  </div>
+
+  <div id="logout" class="logout">
+    <img src="resource/logout.png" alt="">
+  </div>
+
+  <div id="data_table">
+    <span id="close_btn" class="close">&times;</span>
+
+    <div class="card-header bg-white">
+
+      <label class="switch">
+        <input type="checkbox" id="updateChecked" onclick="getUpdatedData()">
+        <span class="slider round"></span>
+      </label>
+
+      <select id="updateTime" style="width: 160px; padding-bottom: 4px; margin-left: 10px;" onchange="getUpdatedData()">
+        <option selected disabled hidden>Auto Update</option>
+        <option>3s</option>
+        <option>5s</option>
+        <option>10s</option>
+        <option>30s</option>
+        <option>60s</option>
+      </select>
+
+      <button type="button" style="margin-left: 10px;" onclick="clearVehicleRecord()">Clear</button>
+
+
+      <select id="deviceId" style="width: 100%" onchange="getUserSelectedDevice()">
+        <option selected disabled hidden>Select Device Id</option>
+        <option>D000-0000</option>
+        <option>D000-0001</option>
+        <option>D000-0002</option>
+        <option>D000-0003</option>
+        <option>D000-0004</option>
+        <option>D000-0005</option>
+        <option>D000-0006</option>
+        <option>D000-0007</option>
+        <option>D000-0008</option>
+        <option>D000-0009</option>
+      </select>
+
+
+
+      <div>
+        <span id="tracking"></span>
+        <br />
+        <span id="packageNumber"></span>
+      </div>
+
+    </div>
+
+    <ul style="width: 100%;">
+      <li class="list-group-item">
+        <a href="#"> <i class="fa fa-tasks"></i> RPM <span class="pull-right" id="rpm">NO DATA</span></a>
+      </li>
+
+      <li class="list-group-item">
+        <a href="#"> <i class="fa fa-tasks"></i> Speed <span class="pull-right" id="speed">NO DATA</span></a>
+      </li>
+
+      <li class="list-group-item">
+        <a href="#"> <i class="fa fa-tasks"></i> Coolent Temp <span class="pull-right" id="c_temp">NO DATA</span></a>
+      </li>
+
+      <li class="list-group-item">
+        <a href="#"> <i class="fa fa-tasks"></i> Engine Temp <span class="pull-right" id="e_temp">NO DATA</span></a>
+      </li>
+
+      <li class="list-group-item">
+        <a href="#"> <i class="fa fa-tasks"></i> Fuel Consumption <span class="pull-right" id="consumption">NO
+            DATA</span></a>
+      </li>
+
+      <li class="list-group-item">
+        <a href="#"> <i class="fa fa-tasks"></i> Battery Voltage <span class="pull-right" id="voltage">NO
+            DATA</span></a>
+      </li>
+
+      <li class="list-group-item">
+        <a href="#"> <i class="fa fa-tasks"></i> Clear Mile <span class="pull-right" id="mile">NO DATA</span></a>
+      </li>
+
+      <li class="list-group-item">
+        <a href="#"> <i class="fa fa-tasks"></i> Engine Code <span class="pull-right" id="code">NO DATA</span></a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="login_page" id="login_page">
+    <div class="sufee-login d-flex align-content-center flex-wrap">
+      <div class="container">
+        <div class="login-content">
+          <div class="login-logo">
+            <h4>Sycamore Map</h4>
+          </div>
+          <div class="login-form">
+            <div class="form-group">
+              <label id="mobile_label">Mobile Number</label>
+              <input id="Phone_Number" type="text" onkeyup="value=value.replace(/[^\d]/g,'')"
+                onblur="value=value.replace(/[^\d]/g,'')" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+              <label id="code_label">Security Code (6 digitals)</label>
+              <input id="SMS_Code" type="text" onkeyup="value=value.replace(/[^\d]/g,'')"
+                onblur="value=value.replace(/[^\d]/g,'')" class="form-control" placeholder="Code" length=6>
+            </div>
+            <div id="alert-info">
+              <p id="alert-red-note" class="red"></p>
+              <p id="alert-green-note" class="green"></p>
+            </div>
+            <button type="button" id="SMS_btn" class="btn btn-success btn-flat m-b-30 m-t-30 get_Code ">Get
+              Security Code </button>
+            <button type="submit" id="login_btn" class="btn btn-success btn-flat m-b-30 m-t-30 ">Sign
+              in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="logout-confirm">
+    <div>
+      <span id="closeLogout" class="close">&times;</span>
+      <h4>Are you sure to logout?</h4>
+      <button id="confirmLogout_btn" class="btn btn-warning btn-flat m-b-30 m-t-30 ">Yes</button>
+    </div>
+  </div>
+
+
+
+
+  <div id="map"></div>
+  <pre id='features'></pre>
+
+  <!-- Resources -->
+  <!-- <script src="./js/index.js"></script> -->
+
+
+</body>
+
+</html>

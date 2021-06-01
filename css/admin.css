@@ -1,0 +1,64 @@
+﻿body {
+    font-family: 'Roboto';
+    text-align: left !important;
+}
+
+div {
+    margin: 5px;
+}
+
+#homeMark{
+    display:block;
+}
+
+#backMark {
+    display: none;
+}
+
+#contents {
+    margin: 0;
+    top: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.functions {
+    background-color: #8fa7ef;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+.fa.functionIcon {
+    float: left;
+    font-size: 18px;
+    margin: 0px;
+    padding: 6px;
+}
+
+.functionText{
+
+}
+
+#postGuidInput {
+    display: none;
+    margin: 0;
+    top: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#noGuidMessage{
+    color:red;
+    display:none;
+}
+
+#confirmbutton{
+    bottom:20px;
+}

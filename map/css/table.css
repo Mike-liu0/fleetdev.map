@@ -1,0 +1,21 @@
+#data_table {
+    position: relative;
+    z-index: 1;
+    margin-left: 25px;
+    margin-top: 20px;
+    max-height: 100%;
+    bottom: 0;
+    width: 450px;
+}
+
+#clear_btn {
+    /* position: absolute; */
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+#submit_btn {
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+}

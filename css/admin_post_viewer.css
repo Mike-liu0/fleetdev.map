@@ -1,0 +1,386 @@
+body {
+    font-family: 'Roboto';
+    text-align: left !important;
+    overflow: scroll !important;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+div {
+    margin: 5px;
+}
+
+
+
+#earthworkImageDiv {
+    margin: 0px;
+    height: 30%;
+    width: 100%;
+    margin-bottom:-17px;
+}
+
+#EarthWork {
+    margin:0px;
+    height:100%;
+    width:100%;
+}
+
+img{
+    padding:5px;
+    position:relative;
+    top:-8px;
+}
+
+#userInfo {
+    height: 10%;
+    width: 100%;
+    float: left;
+}
+
+#Icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    top:0;
+}
+
+#Info{
+    float:left;
+}
+
+#Username{
+    font-size:20px;
+    vertical-align:top;
+    margin:0;
+    color:royalblue;
+    font-weight:bold;
+}
+
+#PostTime {
+    font-size: 15px;
+    vertical-align: bottom;
+    margin: 0;
+    color: grey;
+}
+
+#description {
+    padding-left: 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+#postType{
+    margin-bottom:0;
+}
+
+#postStatus {
+    display:none;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 20px;
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5);
+    width:100px;
+}
+
+#siteAddressMark {
+    margin: 0;
+    float: left;
+}
+
+#siteAddressTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#siteAddressContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+#soilType{
+    display:none;
+}
+
+#soilTypeMark {
+    margin: 0;
+    float: left;
+}
+
+#soilTypeTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#soilTypeContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+#equipmentType {
+    display: none;
+}
+
+#equipmentTypeMark {
+    margin: 0;
+    float: left;
+}
+
+#equipmentTypeTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#equipmentTypeContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+} 
+
+
+#soilVolumeMark {
+    margin: 0;
+    float: left;
+}
+
+#soilVolumeTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#soilVolumeContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+
+#priceMark {
+    margin: 0;
+    float: left;
+}
+
+#priceTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#priceContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+#availableTime{
+    display:none;
+}
+
+#availableTimeMark {
+    margin: 0;
+    float: left;
+}
+
+#availableTimeTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#availableTimeContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+
+#deliveryMethodMark {
+    margin: 0;
+    float: left;
+}
+
+#deliveryMethodTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#deliveryMethodContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+#deliveryCost{
+    display:none;
+}
+
+#deliveryCostMark {
+    margin: 0;
+    float: left;
+}
+
+#deliveryCostTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#deliveryCostContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+#workingDays{
+    display:none;
+}
+
+#workingDaysMark {
+    margin: 0;
+    float: left;
+}
+
+#workingDaysTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#workingDaysContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+#workingHour{
+    display:none;
+}
+
+#workingHourMark {
+    margin: 0;
+    float: left;
+}
+
+#workingHourTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#workingHourContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+#accessiability{
+    display:none;
+}
+
+#accessiabilityMark {
+    margin: 0;
+    float: left;
+}
+
+#accessiabilityTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#accessiabilityContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+#comments {
+    display: block;
+}
+
+#commentsMark {
+    margin: 0;
+    float: left;
+}
+
+#commentsTitle {
+    margin: 0;
+    padding-left: 30px;
+}
+
+#commentsContent {
+    margin: 0;
+    padding-left: 30px;
+    color: grey;
+}
+
+
+div.messageDivs {
+    height: 10%;
+    width: 100%;
+    margin: 0px;
+}
+
+.msgUserIcons {
+    padding-right: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: left;
+}
+
+.msgUserNames {
+    font-size: 18px;
+    vertical-align: top;
+    margin: 0;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.msgPosteds {
+    font-size: 13px;
+    vertical-align: bottom;
+    margin: 0;
+    color: grey;
+}
+
+.msgContents {
+    margin: 0px;
+    padding-bottom: 30px;
+    color: grey;
+}
+
+#dltbutton {
+    position: relative;
+    top: 50%;
+    left: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#dltbuttontext {
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    width: 80%;
+    height: 100%;
+}
+
+#bottom{
+    height:20%;
+}

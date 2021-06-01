@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+
+
+    <title>Allink | Vehcile Tracking</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/vendor/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="css/loading.css">
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #gameContainer {
+            pointer-events: none;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- Unity WEBGL Overlay -->
+    <div id='map'></div>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoieXVoZTA5MjUiLCJhIjoiY2tkbnJobWM2MHY2ZTJycWltNG1lbm5xNyJ9.OPHhWDcFai-mdAqNLzhATA';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/yuhe0925/ckmyi9chk1i4t17mn3iiepo70'
+        });
+    </script>
+
+    <!-- Unity WEBGL Overlay -->
+    <div id="gameContainer"></div>
+
+    <!-- FIle Uploader Overlay-->
+    <div id="overlay-frame" class="overlay-frame uploader">
+
+        <div class="header">
+            <div class="header-title">
+                IMAGE UPLOAD
+            </div>
+            <div class="header-close" onclick="OnClick_CancelUploadImage()">
+                CLOSE
+            </div>
+        </div>
+
+        <br />
+        <form id="upload" class="form" action="upload.php" method="POST" enctype="multipart/form-data">
+
+            <fieldset>
+                <legend id="attachment_guid">7560d869-984a-4e15-8624-02b1d681c700</legend>
+
+                <input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+
+                <div>
+                    <label for="fileselect">Files to upload:</label>
+                    <input type="file" id="fileselect" name="fileselect" />
+                    <div id="filedrag">or drop files here</div>
+                </div>
+
+                <div id="submitbutton">
+                    <button type="submit">Upload Files</button>
+                </div>
+
+            </fieldset>
+
+        </form>
+
+        <div id="messages" class="messages">
+            <p>Support File: image < 15m</p>
+        </div>
+
+        <div class="button">
+
+            <div class="button-upload" onclick="OnClick_ConfirmUploadImage()">
+                UPLOAD
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Panel -->
+    <div id="particles-background" class="vertical-centered-box"><canvas class="pg-canvas" width="3878" height="1144" style="display: block;"></canvas></div>
+    <div id="particles-foreground" class="vertical-centered-box"><canvas class="pg-canvas" width="3878" height="1144" style="display: block;"></canvas></div>
+
+    <div id="particles-icon" class="vertical-centered-box">
+        <div class="content">
+            <div class="loader-circle"></div>
+            <div class="loader-line-mask">
+                <div class="loader-line"></div>
+            </div>
+            <img class="loader-icon" src="resources/logo/loge M.png" />
+        </div>
+    </div>
+
+
+    <div id="loader-information" class="loader-information">
+        Loading
+    </div>
+
+
+
+    <!-- Resources -->
+    <script src="Build/UnityLoader.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/loading.js"></script>
+
+
+</body>
+</html>
+
